@@ -1,6 +1,6 @@
 import React from "react";
 import GitHubCalendar from "react-github-calendar";
-// import LeetCodeCalendar from "leetcode-calendar";
+// import LeetCodeCalendar from 'leetcode-calendar';
 import { Row } from "react-bootstrap";
 
 function Github() {
