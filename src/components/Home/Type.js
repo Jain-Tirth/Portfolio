@@ -10,6 +10,7 @@ function Type() {
           "Machine Learning Enthusiast",
           "ERN Stack Developer",
           "Data structures and Algorithms Lover",
+          "Cloud Enthusiast"
         ],
         autoStart: true,
         loop: true,

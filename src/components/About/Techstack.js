@@ -5,7 +5,6 @@ import {
   DiJavascript1,
   DiReact,
   DiNodejs,
-  DiMongodb,
   DiPython,
   DiGit,
   DiJava,
@@ -13,13 +12,25 @@ import {
 import {
   SiFirebase,
   SiPostgresql,
+  SiSupabase,
+  SiC, 
+  SiScikitlearn,
 } from "react-icons/si";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
+        <SiC />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <CgCPlusPlus />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiPython />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiJava />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
@@ -31,10 +42,10 @@ function Techstack() {
         <DiReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
+        <DiGit />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
+        <SiScikitlearn />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiFirebase />
@@ -43,10 +54,7 @@ function Techstack() {
         <SiPostgresql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
+        <SiSupabase />
       </Col>
     </Row>
   );
